@@ -1,10 +1,10 @@
-2018-01-03 19:36:44 [scrapy.utils.log] INFO: Scrapy 1.4.0 started (bot: wiki)
-2018-01-03 19:36:44 [scrapy.utils.log] INFO: Overridden settings: {'BOT_NAME': 'wiki', 'LOG_FILE': 'log.txt', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'wiki.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['wiki.spiders']}
-2018-01-03 19:36:44 [scrapy.middleware] INFO: Enabled extensions:
+2018-01-03 19:53:57 [scrapy.utils.log] INFO: Scrapy 1.4.0 started (bot: wiki)
+2018-01-03 19:53:57 [scrapy.utils.log] INFO: Overridden settings: {'BOT_NAME': 'wiki', 'LOG_FILE': 'log.txt', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'wiki.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['wiki.spiders']}
+2018-01-03 19:53:57 [scrapy.middleware] INFO: Enabled extensions:
 ['scrapy.extensions.corestats.CoreStats',
  'scrapy.extensions.telnet.TelnetConsole',
  'scrapy.extensions.logstats.LogStats']
-2018-01-03 19:36:44 [scrapy.middleware] INFO: Enabled downloader middlewares:
+2018-01-03 19:53:57 [scrapy.middleware] INFO: Enabled downloader middlewares:
 ['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
  'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
  'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
@@ -17,376 +17,376 @@
  'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
  'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
  'scrapy.downloadermiddlewares.stats.DownloaderStats']
-2018-01-03 19:36:44 [scrapy.middleware] INFO: Enabled spider middlewares:
+2018-01-03 19:53:57 [scrapy.middleware] INFO: Enabled spider middlewares:
 ['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
  'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
  'scrapy.spidermiddlewares.referer.RefererMiddleware',
  'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
  'scrapy.spidermiddlewares.depth.DepthMiddleware']
-2018-01-03 19:36:44 [scrapy.middleware] INFO: Enabled item pipelines:
+2018-01-03 19:53:57 [scrapy.middleware] INFO: Enabled item pipelines:
 ['wiki.pipelines.WikiPipeline']
-2018-01-03 19:36:44 [scrapy.core.engine] INFO: Spider opened
-2018-01-03 19:36:44 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
-2018-01-03 19:36:46 [root] INFO: Deaths_in_January_2018
-2018-01-03 19:36:46 [root] INFO: 45 Kyrgyz politician heart attack.
-2018-01-03 19:36:46 [root] INFO: Deaths_in_June_2016
-2018-01-03 19:36:46 [root] INFO: 10 Australian thoroughbred racehorse euthanized.
-2018-01-03 19:36:47 [root] INFO: Deaths_in_May_2016
-2018-01-03 19:36:47 [root] INFO: 15 Brazilian-born American racehorse
-2018-01-03 19:36:47 [root] INFO: Deaths_in_July_2016
-2018-01-03 19:36:47 [root] INFO: 22 Indian Kashmiri militant shot.
-2018-01-03 19:36:47 [root] INFO: Deaths_in_January_2016
-2018-01-03 19:36:47 [root] INFO: 14 Nigerian actor abdominal injury.
-2018-01-03 19:36:47 [root] INFO: Deaths_in_April_2016
-2018-01-03 19:36:47 [root] INFO: 21 Swiss snowboarder world champion (
-2018-01-03 19:36:47 [root] INFO: Deaths_in_March_2016
-2018-01-03 19:36:47 [root] INFO: 11 American dog first dog of Maine (since 2011).
-2018-01-03 19:36:48 [root] INFO: Deaths_in_February_2016
-2018-01-03 19:36:48 [root] INFO: 11 Afghan child soldier shot.
-2018-01-03 19:36:48 [root] INFO: Deaths_in_October_2017
-2018-01-03 19:36:48 [root] INFO: 16 Australian racehorse foaling complications.
-2018-01-03 19:36:48 [root] INFO: Deaths_in_November_2017
-2018-01-03 19:36:48 [root] INFO: 20 Swedish racehorse euthanized.
-2018-01-03 19:36:48 [root] INFO: Deaths_in_September_2017
-2018-01-03 19:36:48 [root] INFO: 17 Indian student suicide by hanging.
-2018-01-03 19:36:48 [root] INFO: Deaths_in_August_2017
-2018-01-03 19:36:48 [root] INFO: 30 Swedish journalist (
-2018-01-03 19:36:48 [root] INFO: Deaths_in_July_2017
-2018-01-03 19:36:48 [root] INFO: 11 American racehorse euthanized.
-2018-01-03 19:36:48 [root] INFO: Deaths_in_June_2017
-2018-01-03 19:36:48 [root] INFO: 18 American racehorse winner of the 2004
-2018-01-03 19:36:49 [root] INFO: Deaths_in_May_2017
-2018-01-03 19:36:49 [root] INFO: 21 Colombian footballer (
-2018-01-03 19:36:49 [root] INFO: Deaths_in_December_2017
-2018-01-03 19:36:49 [root] INFO: 17 German alpine skier downhill race crash.
-2018-01-03 19:36:49 [root] INFO: Deaths_in_1998
-2018-01-03 19:36:49 [root] INFO: 34 American singer suicide by hanging.
-2018-01-03 19:36:49 [root] INFO: Deaths_in_1999
-2018-01-03 19:36:49 [root] INFO: 13 American murder victim respiratory failure.
-2018-01-03 19:36:49 [root] INFO: Deaths_in_2000
-2018-01-03 19:36:49 [root] INFO: 50 American baseball player (born 1949).
-2018-01-03 19:36:49 [root] INFO: Deaths_in_2001
-2018-01-03 19:36:49 [root] INFO: 13 American dog actor
-2018-01-03 19:36:50 [root] INFO: Deaths_in_2002
-2018-01-03 19:36:50 [root] INFO: 16 thoroughbred race horse winner of the
-2018-01-03 19:36:50 [root] INFO: Deaths_in_2003
-2018-01-03 19:36:50 [root] INFO: 17 Mexican heart and lung patient whose wrong transplant made headlines.
-2018-01-03 19:36:50 [root] INFO: Deaths_in_December_2004
-2018-01-03 19:36:50 [root] INFO: 21 Thai prince.
-2018-01-03 19:36:50 [root] INFO: Deaths_in_November_2004
-2018-01-03 19:36:50 [root] INFO: 31 Latvian ice hockey player heart failure due to
-2018-01-03 19:36:50 [root] INFO: Deaths_in_October_2004
-2018-01-03 19:36:50 [root] INFO: 21 American college junior shot with pepper spray projectile by Boston Police.
-2018-01-03 19:36:50 [root] INFO: Deaths_in_September_2004
-2018-01-03 19:36:50 [root] INFO: 20 Italian motoracer killed during a race.
-2018-01-03 19:36:51 [root] INFO: Deaths_in_August_2004
-2018-01-03 19:36:51 [root] INFO: 18 Czech football car accident.
-2018-01-03 19:36:51 [root] INFO: Deaths_in_July_2004
-2018-01-03 19:36:51 [root] INFO: 14 American thoroughbred.
-2018-01-03 19:36:51 [root] INFO: Deaths_in_June_2004
-2018-01-03 19:36:51 [root] INFO: 13 American poet and advocate muscular dystrophy.
-2018-01-03 19:36:51 [root] INFO: Deaths_in_May_2004
-2018-01-03 19:36:51 [root] INFO: 26 American businessman and hostage killed in Iraq.
-2018-01-03 19:36:51 [root] INFO: Deaths_in_April_2004
-2018-01-03 19:36:51 [root] INFO: 22 American marine used his body and helmet to shield others from a grenade explosion.
-2018-01-03 19:36:51 [root] INFO: Deaths_in_March_2004
-2018-01-03 19:36:51 [root] INFO: 19 Mexican singer.
-2018-01-03 19:36:51 [root] INFO: Deaths_in_February_2004
-2018-01-03 19:36:51 [root] INFO: 21 Estonian soldier first Estonian soldier to be killed in Iraq.
-2018-01-03 19:36:51 [root] INFO: Deaths_in_January_2004
-2018-01-03 19:36:51 [root] INFO: 23 Georgian footballer.
-2018-01-03 19:36:52 [root] INFO: Deaths_in_December_2005
-2018-01-03 19:36:52 [root] INFO: 25 French professional surfer killed at Hawaii's
-2018-01-03 19:36:52 [root] INFO: Deaths_in_November_2005
-2018-01-03 19:36:52 [root] INFO: 17 American thoroughbred racehorse.
-2018-01-03 19:36:52 [root] INFO: Deaths_in_October_2005
-2018-01-03 19:36:52 [root] INFO: 22 Canadian shooting victim.
-2018-01-03 19:36:52 [root] INFO: Deaths_in_September_2005
-2018-01-03 19:36:52 [root] INFO: 22 American center on the
-2018-01-03 19:36:52 [root] INFO: Deaths_in_August_2005
-2018-01-03 19:36:52 [root] INFO: 21 Colombian "New Wave"
-2018-01-03 19:36:52 [root] INFO: Deaths_in_July_2005
-2018-01-03 19:36:52 [root] INFO: 18 British terrorist.
-2018-01-03 19:36:52 [root] INFO: Deaths_in_June_2005
-2018-01-03 19:36:52 [root] INFO: 23 American sexual assault victim whose case paved the way for laws allowing indefinite confinement of sexual predators motorcycle accident.
-2018-01-03 19:36:52 [root] INFO: Deaths_in_May_2005
-2018-01-03 19:36:52 [root] INFO: 24 Afghan TV presenter of
-2018-01-03 19:36:53 [root] INFO: Deaths_in_April_2005
-2018-01-03 19:36:53 [root] INFO: 26 American ex-National Football League player spinal cord injury suffered playing an
-2018-01-03 19:36:53 [root] INFO: Deaths_in_March_2005
-2018-01-03 19:36:53 [root] INFO: 16 American school shooter suicide.
-2018-01-03 19:36:53 [root] INFO: Deaths_in_February_2005
-2018-01-03 19:36:53 [root] INFO: 21 Palestinian suicide bomber.
-2018-01-03 19:36:53 [root] INFO: Deaths_in_January_2005
-2018-01-03 19:36:53 [root] INFO: 16 American teenager who was brutally murdered and made national headlines.
-2018-01-03 19:36:53 [root] INFO: Deaths_in_December_2006
-2018-01-03 19:36:53 [root] INFO: 18 American world champion bucking bull.
-2018-01-03 19:36:53 [root] INFO: Deaths_in_November_2006
-2018-01-03 19:36:53 [root] INFO: 21 Brazilian model complications of anorexia nervosa.
-2018-01-03 19:36:53 [root] INFO: Deaths_in_October_2006
-2018-01-03 19:36:53 [root] INFO: 12 Hungarian rescue dog with the
-2018-01-03 19:36:53 [root] INFO: Deaths_in_September_2006
-2018-01-03 19:36:53 [root] INFO: 19 Mexican actor (
-2018-01-03 19:36:54 [root] INFO: Deaths_in_July_2006
-2018-01-03 19:36:54 [root] INFO: 19 American model car accident.
-2018-01-03 19:36:54 [root] INFO: Deaths_in_August_2006
-2018-01-03 19:36:54 [root] INFO: 22 Uruguayan model heart failure caused by anorexia nervosa.
-2018-01-03 19:36:54 [root] INFO: Deaths_in_June_2006
-2018-01-03 19:36:54 [root] INFO: 16 American canine star of U.S. sit-com
-2018-01-03 19:36:54 [root] INFO: Deaths_in_May_2006
-2018-01-03 19:36:54 [root] INFO: 15 British youth team player with English football team
-2018-01-03 19:36:54 [root] INFO: Deaths_in_April_2006
-2018-01-03 19:36:54 [root] INFO: 17 Russian teenager murdered while working at
-2018-01-03 19:36:54 [root] INFO: Deaths_in_March_2006
-2018-01-03 19:36:54 [root] INFO: 17 British
-2018-01-03 19:36:54 [root] INFO: Deaths_in_February_2006
-2018-01-03 19:36:54 [root] INFO: 24 American Hispanic
-2018-01-03 19:36:55 [root] INFO: Deaths_in_December_2007
-2018-01-03 19:36:55 [root] INFO: 16 Canadian allegedly killed for refusing to wear hijab strangled.
-2018-01-03 19:36:55 [root] INFO: Deaths_in_January_2006
-2018-01-03 19:36:55 [root] INFO: 15 Bahraini prince injuries from a car crash.
-2018-01-03 19:36:55 [root] INFO: Deaths_in_October_2007
-2018-01-03 19:36:55 [root] INFO: 14 American orca at
-2018-01-03 19:36:55 [root] INFO: Deaths_in_November_2007
-2018-01-03 19:36:55 [root] INFO: 18 Finnish mass murderer suicide by gunshot.
-2018-01-03 19:36:55 [root] INFO: Deaths_in_September_2007
-2018-01-03 19:36:55 [root] INFO: 20 South Korean actress brain tumor.
-2018-01-03 19:36:55 [root] INFO: Deaths_in_August_2007
-2018-01-03 19:36:55 [root] INFO: 18 British footballer (
-2018-01-03 19:36:55 [root] INFO: Deaths_in_July_2007
-2018-01-03 19:36:55 [root] INFO: 12 American search and rescue dog for
-2018-01-03 19:36:56 [root] INFO: Deaths_in_June_2007
-2018-01-03 19:36:56 [root] INFO: 22 Russian footballer (
-2018-01-03 19:36:56 [root] INFO: Deaths_in_May_2007
-2018-01-03 19:36:56 [root] INFO: 23 Honduran footballer car accident.
-2018-01-03 19:36:56 [root] INFO: Deaths_in_April_2007
-2018-01-03 19:36:56 [root] INFO: 23 American brain-injured girl claimed to have performed miracles cardio-respiratory failure.
-2018-01-03 19:36:56 [root] INFO: Deaths_in_March_2007
-2018-01-03 19:36:56 [root] INFO: 20 Australian professional skateboarder motorcycle collision.
-2018-01-03 19:36:56 [root] INFO: Deaths_in_January_2007
-2018-01-03 19:36:56 [root] INFO: 17 British Jack Russell terrier celebrity pet of
-2018-01-03 19:36:56 [root] INFO: Deaths_in_February_2007
-2018-01-03 19:36:56 [root] INFO: 18 American Salt Lake City spree killer shot by police.
-2018-01-03 19:36:56 [root] INFO: Deaths_in_December_2008
-2018-01-03 19:36:56 [root] INFO: 20 Filipino
-2018-01-03 19:36:56 [root] INFO: Deaths_in_November_2008
-2018-01-03 19:36:56 [root] INFO: 26 American professional baseball player accidental drug overdose.
-2018-01-03 19:36:57 [root] INFO: Deaths_in_October_2008
-2018-01-03 19:36:57 [root] INFO: 13 American stray cat name source of the
-2018-01-03 19:36:57 [root] INFO: Deaths_in_September_2008
-2018-01-03 19:36:57 [root] INFO: 18 Croatian ice hockey player car accident.
-2018-01-03 19:36:57 [root] INFO: Deaths_in_August_2008
-2018-01-03 19:36:57 [root] INFO: 18 American western lowland gorilla complications of early pregnancy.
-2018-01-03 19:36:57 [root] INFO: Deaths_in_July_2008
-2018-01-03 19:36:57 [root] INFO: 18 Indian singer drowned.
-2018-01-03 19:36:57 [root] INFO: Deaths_in_June_2008
-2018-01-03 19:36:57 [root] INFO: 16 English murder victim stabbing.
-2018-01-03 19:36:57 [root] INFO: Deaths_in_April_2008
-2018-01-03 19:36:57 [root] INFO: 22 Chinese panda lived in
-2018-01-03 19:36:58 [root] INFO: Deaths_in_March_2008
-2018-01-03 19:36:58 [root] INFO: 19 Finnish singer finalist in
-2018-01-03 19:36:58 [root] INFO: Deaths_in_May_2008
-2018-01-03 19:36:58 [root] INFO: 17 Australian singer and actress (
-2018-01-03 19:36:58 [root] INFO: Deaths_in_February_2008
-2018-01-03 19:36:58 [root] INFO: 18 Pakistani cricketer for
-2018-01-03 19:36:58 [root] INFO: Deaths_in_January_2008
-2018-01-03 19:36:58 [root] INFO: 19 Irish
-2018-01-03 19:36:58 [root] INFO: Deaths_in_December_2009
-2018-01-03 19:36:58 [root] INFO: 26 American football player (
-2018-01-03 19:36:58 [root] INFO: Deaths_in_November_2009
-2018-01-03 19:36:58 [root] INFO: 20 South Korean fashion model suicide by hanging.
-2018-01-03 19:36:58 [root] INFO: Deaths_in_October_2009
-2018-01-03 19:36:58 [root] INFO: 10 British hurdles racehorse euthanised.
-2018-01-03 19:36:59 [root] INFO: Deaths_in_September_2009
-2018-01-03 19:36:59 [root] INFO: 19 Colombian footballer traffic collision.
-2018-01-03 19:36:59 [root] INFO: Deaths_in_August_2009
-2018-01-03 19:36:59 [root] INFO: 21 Swazi beauty pageant contestant
-2018-01-03 19:36:59 [root] INFO: Deaths_in_June_2009
-2018-01-03 19:36:59 [root] INFO: 11 Japanese Thoroughbred racehorse heart failure.
-2018-01-03 19:36:59 [root] INFO: Deaths_in_July_2009
-2018-01-03 19:36:59 [root] INFO: 15 American chihuahua
-2018-01-03 19:36:59 [root] INFO: Deaths_in_May_2009
-2018-01-03 19:36:59 [root] INFO: 13 New Zealand champion racehorse euthanized.
-2018-01-03 19:36:59 [root] INFO: Deaths_in_April_2009
-2018-01-03 19:36:59 [root] INFO: 21 Bulgarian ice hockey goaltender member of the
-2018-01-03 19:36:59 [root] INFO: Deaths_in_March_2009
-2018-01-03 19:36:59 [root] INFO: 13 British service dog stroke.
-2018-01-03 19:36:59 [root] INFO: Deaths_in_February_2009
-2018-01-03 19:36:59 [root] INFO: 13 American-born chimpanzee television commercial animal shot.
-2018-01-03 19:37:00 [root] INFO: Deaths_in_January_2009
-2018-01-03 19:37:00 [root] INFO: 18 American pet cat of
-2018-01-03 19:37:00 [root] INFO: Deaths_in_December_2010
-2018-01-03 19:37:00 [root] INFO: 21 Nigerian footballer.
-2018-01-03 19:37:00 [root] INFO: Deaths_in_November_2010
-2018-01-03 19:37:00 [root] INFO: 10 American obese cat heart disease.
-2018-01-03 19:37:00 [root] INFO: Deaths_in_September_2010
-2018-01-03 19:37:00 [root] INFO: 15 American thoroughbred racehorse winner of 1998
-2018-01-03 19:37:00 [root] INFO: Deaths_in_August_2010
-2018-01-03 19:37:00 [root] INFO: 13 American motorcycle racer racetrack crash.
-2018-01-03 19:37:01 [root] INFO: Deaths_in_October_2010
-2018-01-03 19:37:01 [root] INFO: 23 American thoroughbred racehorse euthanized due to
-2018-01-03 19:37:01 [root] INFO: Deaths_in_July_2010
-2018-01-03 19:37:01 [root] INFO: 18 Irish Thoroughbred racehorse euthanized.
-2018-01-03 19:37:01 [root] INFO: Deaths_in_June_2010
-2018-01-03 19:37:01 [root] INFO: 17 American Chinese Crested Dog winner of title
-2018-01-03 19:37:01 [root] INFO: Deaths_in_May_2010
-2018-01-03 19:37:01 [root] INFO: 17 American thoroughbred racehorse heart attack.
-2018-01-03 19:37:01 [root] INFO: Deaths_in_April_2010
-2018-01-03 19:37:01 [root] INFO: 15 Malaysian student and victim shot.
-2018-01-03 19:37:01 [root] INFO: Deaths_in_March_2010
-2018-01-03 19:37:01 [root] INFO: 17 Austrian fashion model car accident.
-2018-01-03 19:37:01 [root] INFO: Deaths_in_February_2010
-2018-01-03 19:37:01 [root] INFO: 16 American Pit Bull Terrier appeared with owner
-2018-01-03 19:37:02 [root] INFO: Deaths_in_January_2010
-2018-01-03 19:37:02 [root] INFO: 15 Irish student at
-2018-01-03 19:37:02 [root] INFO: Deaths_in_November_2011
-2018-01-03 19:37:02 [root] INFO: 15 Dutch-born Canadian show jumping horse Olympic champion (
-2018-01-03 19:37:02 [root] INFO: Deaths_in_October_2011
-2018-01-03 19:37:02 [root] INFO: 21 Russian ski jumper traffic accident.
-2018-01-03 19:37:02 [root] INFO: Deaths_in_December_2011
-2018-01-03 19:37:02 [root] INFO: 18 American Internet personality cardiac arrest.
-2018-01-03 19:37:02 [root] INFO: Deaths_in_September_2011
-2018-01-03 19:37:02 [root] INFO: 12 American bulldog
-2018-01-03 19:37:02 [root] INFO: Deaths_in_August_2011
-2018-01-03 19:37:02 [root] INFO: 22 Australian bodybuilder and model heart attack.
-2018-01-03 19:37:02 [root] INFO: Deaths_in_July_2011
-2018-01-03 19:37:02 [root] INFO: 20
-2018-01-03 19:37:03 [root] INFO: Deaths_in_June_2011
-2018-01-03 19:37:03 [root] INFO: 16 New Zealand celebrity sheep euthanised.
-2018-01-03 19:37:03 [root] INFO: Deaths_in_May_2011
-2018-01-03 19:37:03 [root] INFO: 22 Filipino motorcycle racer race crash.
-2018-01-03 19:37:03 [root] INFO: Deaths_in_March_2011
-2018-01-03 19:37:03 [root] INFO: 20 Liberian footballer.
-2018-01-03 19:37:03 [root] INFO: Deaths_in_January_2011
-2018-01-03 19:37:03 [root] INFO: 17 Italian ski jumper.
-2018-01-03 19:37:03 [root] INFO: Deaths_in_February_2011
-2018-01-03 19:37:03 [root] INFO: 10 American
-2018-01-03 19:37:03 [root] INFO: Deaths_in_April_2011
-2018-01-03 19:37:03 [root] INFO: 18 Filipino actor traffic accident.
-2018-01-03 19:37:03 [root] INFO: Deaths_in_December_2012
-2018-01-03 19:37:03 [root] INFO: 18 American Thoroughbred racehorse winner of the 1997
-2018-01-03 19:37:04 [root] INFO: Deaths_in_November_2012
-2018-01-03 19:37:04 [root] INFO: 21 English cricketer.
-2018-01-03 19:37:04 [root] INFO: Deaths_in_October_2012
-2018-01-03 19:37:04 [root] INFO: 18 Australian Thoroughbred racehorse winner of the
-2018-01-03 19:37:04 [root] INFO: Deaths_in_September_2012
-2018-01-03 19:37:04 [root] INFO: 16 Norwegian homicide victim.
-2018-01-03 19:37:04 [root] INFO: Deaths_in_August_2012
-2018-01-03 19:37:04 [root] INFO: 12 American-bred British-trained Thoroughbred racehorse winner of
-2018-01-03 19:37:04 [root] INFO: Deaths_in_July_2012
-2018-01-03 19:37:04 [root] INFO: 20 Canadian Thoroughbred racehorse winner of the
-2018-01-03 19:37:05 [root] INFO: Deaths_in_May_2012
-2018-01-03 19:37:05 [root] INFO: 14 Indian film actress (
-2018-01-03 19:37:05 [root] INFO: Deaths_in_June_2012
-2018-01-03 19:37:05 [root] INFO: 19 American rap artist ("
-2018-01-03 19:37:05 [root] INFO: Deaths_in_April_2012
-2018-01-03 19:37:05 [root] INFO: 24 South Korean footballer (
-2018-01-03 19:37:05 [root] INFO: Deaths_in_March_2012
-2018-01-03 19:37:05 [root] INFO: 12 American Marine service dog awarded honorary Purple Heart cancer.
-2018-01-03 19:37:05 [root] INFO: Deaths_in_January_2012
-2018-01-03 19:37:05 [root] INFO: 16 Pakistani student world's youngest
-2018-01-03 19:37:05 [root] INFO: Deaths_in_February_2012
-2018-01-03 19:37:05 [root] INFO: 11 Irish Thoroughbred racehorse winner of the
-2018-01-03 19:37:05 [root] INFO: Deaths_in_December_2013
-2018-01-03 19:37:05 [root] INFO: 22 American rapper shot.
-2018-01-03 19:37:05 [root] INFO: Deaths_in_November_2013
-2018-01-03 19:37:05 [root] INFO: 15 English singer liver cancer.
-2018-01-03 19:37:05 [root] INFO: Deaths_in_October_2013
-2018-01-03 19:37:05 [root] INFO: 20 French thoroughbred racehorse winner of the
-2018-01-03 19:37:06 [root] INFO: Deaths_in_August_2013
-2018-01-03 19:37:06 [root] INFO: 20 Australian Olympic boxer (
-2018-01-03 19:37:06 [root] INFO: Deaths_in_June_2013
-2018-01-03 19:37:06 [root] INFO: 18 Congolese footballer (
-2018-01-03 19:37:06 [root] INFO: Deaths_in_September_2013
-2018-01-03 19:37:06 [root] INFO: 24 Ukrainian footballer brain tumor.
-2018-01-03 19:37:06 [root] INFO: Deaths_in_May_2013
-2018-01-03 19:37:06 [root] INFO: 12 American collie mascot for
-2018-01-03 19:37:06 [root] INFO: Deaths_in_April_2013
-2018-01-03 19:37:06 [root] INFO: 16 American thoroughbred horse winner of
-2018-01-03 19:37:07 [root] INFO: Deaths_in_July_2013
-2018-01-03 19:37:07 [root] INFO: 13 American golden retriever bat dog and mascot for the
-2018-01-03 19:37:07 [root] INFO: Deaths_in_March_2013
-2018-01-03 19:37:07 [root] INFO: 10 New Zealand-bred Australian racehorse winner of
-2018-01-03 19:37:07 [root] INFO: Deaths_in_February_2013
-2018-01-03 19:37:07 [root] INFO: 12 American Scottish Terrier
-2018-01-03 19:37:07 [root] INFO: Deaths_in_January_2013
-2018-01-03 19:37:07 [root] INFO: 12 American thoroughbred racehorse winner of
-2018-01-03 19:37:07 [root] INFO: Deaths_in_December_2014
-2018-01-03 19:37:07 [root] INFO: 15 American-born
-2018-01-03 19:37:07 [root] INFO: Deaths_in_October_2014
-2018-01-03 19:37:07 [root] INFO: 11 American thoroughbred racehorse injuries sustained in paddock accident.
-2018-01-03 19:37:07 [root] INFO: Deaths_in_November_2014
-2018-01-03 19:37:07 [root] INFO: 10 French-bred Irish-trained Thoroughbred racehorse fall while training.
-2018-01-03 19:37:08 [root] INFO: Deaths_in_September_2014
-2018-01-03 19:37:08 [root] INFO: 15 Scottish celebrity cat chest infection.
-2018-01-03 19:37:08 [root] INFO: Deaths_in_August_2014
-2018-01-03 19:37:08 [root] INFO: 18 Belgian cyclist winner of the
-2018-01-03 19:37:08 [root] INFO: Deaths_in_July_2014
-2018-01-03 19:37:08 [root] INFO: 17 Pakistani cricketer and sexual harassment plaintiff suicide.
-2018-01-03 19:37:08 [root] INFO: Deaths_in_June_2014
-2018-01-03 19:37:08 [root] INFO: 25 Uzbekistani footballer gastric ulcer.
-2018-01-03 19:37:08 [root] INFO: Deaths_in_May_2014
-2018-01-03 19:37:08 [root] INFO: 10 American thoroughbred horse.
-2018-01-03 19:37:08 [root] INFO: Deaths_in_April_2014
-2018-01-03 19:37:08 [root] INFO: 13 Irish racehorse and sire euthanised.
-2018-01-03 19:37:09 [root] INFO: Deaths_in_March_2014
-2018-01-03 19:37:09 [root] INFO: 15 Turkish student head trauma from projected tear-gas canister.
-2018-01-03 19:37:09 [root] INFO: Deaths_in_February_2014
-2018-01-03 19:37:09 [root] INFO: 12 British Thoroughbred racehorse
-2018-01-03 19:37:09 [root] INFO: Deaths_in_January_2014
-2018-01-03 19:37:09 [root] INFO: 13 Canadian Thoroughbred racehorse heart attack.
-2018-01-03 19:37:09 [root] INFO: Deaths_in_December_2015
-2018-01-03 19:37:09 [root] INFO: 11 American Thoroughbred racehorse.
-2018-01-03 19:37:09 [root] INFO: Deaths_in_November_2015
-2018-01-03 19:37:09 [root] INFO: 15 Irish-bred British-trained thoroughbred racehorse
-2018-01-03 19:37:09 [root] INFO: Deaths_in_October_2015
-2018-01-03 19:37:09 [root] INFO: 10 American skateboarding English bulldog heart disease.
-2018-01-03 19:37:09 [root] INFO: Deaths_in_September_2015
-2018-01-03 19:37:09 [root] INFO: 20 French canoeist European
-2018-01-03 19:37:09 [root] INFO: Deaths_in_August_2015
-2018-01-03 19:37:09 [root] INFO: 13 American canine actor (
-2018-01-03 19:37:10 [root] INFO: Deaths_in_July_2015
-2018-01-03 19:37:10 [root] INFO: 10 Hungarian Thoroughbred racehorse horse colic.
-2018-01-03 19:37:10 [root] INFO: Deaths_in_May_2015
-2018-01-03 19:37:10 [root] INFO: 14 Chilean euthanasia advocate cystic fibrosis.
-2018-01-03 19:37:10 [root] INFO: Deaths_in_June_2015
-2018-01-03 19:37:10 [root] INFO: 15 Australian Thoroughbred racehorse euthanised.
-2018-01-03 19:37:10 [root] INFO: Deaths_in_April_2015
-2018-01-03 19:37:10 [root] INFO: 12 American Thoroughbred racehorse complications from foaling.
-2018-01-03 19:37:10 [root] INFO: Deaths_in_March_2015
-2018-01-03 19:37:10 [root] INFO: 12 Australian war canine brain cancer.
-2018-01-03 19:37:10 [root] INFO: Deaths_in_February_2015
-2018-01-03 19:37:10 [root] INFO: 13 Japanese thoroughbred racehorse heart failure.
-2018-01-03 19:37:11 [root] INFO: Deaths_in_January_2015
-2018-01-03 19:37:11 [root] INFO: 18 Indian motivational speaker and author pulmonary fibrosis.
-2018-01-03 19:37:11 [root] INFO: Deaths_in_December_2016
-2018-01-03 19:37:11 [root] INFO: 12 American student suicide by hanging.
-2018-01-03 19:37:11 [root] INFO: Deaths_in_November_2016
-2018-01-03 19:37:11 [root] INFO: 20 American albino buffalo.
-2018-01-03 19:37:11 [root] INFO: Deaths_in_October_2016
-2018-01-03 19:37:11 [root] INFO: 18 American Thoroughbred racehorse winner of the
-2018-01-03 19:37:11 [root] INFO: Deaths_in_September_2016
-2018-01-03 19:37:11 [root] INFO: 16 American Thoroughbred racehorse heart attack.
-2018-01-03 19:37:11 [root] INFO: Deaths_in_August_2016
-2018-01-03 19:37:11 [root] INFO: 20 Indian tigress.
-2018-01-03 19:37:11 [root] INFO: Deaths_in_April_2017
-2018-01-03 19:37:11 [root] INFO: 15 American victim of police shooting shot.
-2018-01-03 19:37:12 [root] INFO: Deaths_in_March_2017
-2018-01-03 19:37:12 [root] INFO: 24 Irish-bred racehorse euthanized.
-2018-01-03 19:37:12 [root] INFO: Deaths_in_February_2017
-2018-01-03 19:37:12 [root] INFO: 11 Irish racehorse winner of the
-2018-01-03 19:37:12 [root] INFO: Deaths_in_January_2017
-2018-01-03 19:37:12 [root] INFO: 25 American convicted murderer suicide by hanging.
-2018-01-03 19:37:12 [scrapy.core.engine] INFO: Closing spider (finished)
-2018-01-03 19:37:12 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+2018-01-03 19:53:57 [scrapy.core.engine] INFO: Spider opened
+2018-01-03 19:53:57 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-01-03 19:53:59 [root] INFO: Deaths_in_January_2018
+2018-01-03 19:53:59 [root] INFO: 45 Kyrgyz politician heart attack.
+2018-01-03 19:54:00 [root] INFO: Deaths_in_December_2017
+2018-01-03 19:54:00 [root] INFO: 17 German alpine skier downhill race crash.
+2018-01-03 19:54:00 [root] INFO: Deaths_in_September_2017
+2018-01-03 19:54:00 [root] INFO: 17 Indian student suicide by hanging.
+2018-01-03 19:54:00 [root] INFO: Deaths_in_November_2017
+2018-01-03 19:54:00 [root] INFO: 20 Swedish racehorse euthanized.
+2018-01-03 19:54:00 [root] INFO: Deaths_in_October_2017
+2018-01-03 19:54:00 [root] INFO: 16 Australian racehorse foaling complications.
+2018-01-03 19:54:01 [root] INFO: Deaths_in_March_2017
+2018-01-03 19:54:01 [root] INFO: 24 Irish-bred racehorse euthanized.
+2018-01-03 19:54:01 [root] INFO: Deaths_in_July_2017
+2018-01-03 19:54:01 [root] INFO: 11 American racehorse euthanized.
+2018-01-03 19:54:01 [root] INFO: Deaths_in_May_2017
+2018-01-03 19:54:01 [root] INFO: 21 Colombian footballer (
+2018-01-03 19:54:01 [root] INFO: Deaths_in_April_2017
+2018-01-03 19:54:01 [root] INFO: 15 American victim of police shooting shot.
+2018-01-03 19:54:01 [root] INFO: Deaths_in_January_2017
+2018-01-03 19:54:01 [root] INFO: 25 American convicted murderer suicide by hanging.
+2018-01-03 19:54:01 [root] INFO: Deaths_in_August_2017
+2018-01-03 19:54:01 [root] INFO: 30 Swedish journalist (
+2018-01-03 19:54:01 [root] INFO: Deaths_in_October_2014
+2018-01-03 19:54:01 [root] INFO: 11 American thoroughbred racehorse injuries sustained in paddock accident.
+2018-01-03 19:54:01 [root] INFO: Deaths_in_February_2017
+2018-01-03 19:54:01 [root] INFO: 11 Irish racehorse winner of the
+2018-01-03 19:54:01 [root] INFO: Deaths_in_September_2014
+2018-01-03 19:54:01 [root] INFO: 15 Scottish celebrity cat chest infection.
+2018-01-03 19:54:02 [root] INFO: Deaths_in_August_2014
+2018-01-03 19:54:02 [root] INFO: 18 Belgian cyclist winner of the
+2018-01-03 19:54:02 [root] INFO: Deaths_in_June_2017
+2018-01-03 19:54:02 [root] INFO: 18 American racehorse winner of the 2004
+2018-01-03 19:54:02 [root] INFO: Deaths_in_1998
+2018-01-03 19:54:02 [root] INFO: 34 American singer suicide by hanging.
+2018-01-03 19:54:02 [root] INFO: Deaths_in_2000
+2018-01-03 19:54:02 [root] INFO: 50 American baseball player (born 1949).
+2018-01-03 19:54:02 [root] INFO: Deaths_in_1999
+2018-01-03 19:54:02 [root] INFO: 13 American murder victim respiratory failure.
+2018-01-03 19:54:03 [root] INFO: Deaths_in_2001
+2018-01-03 19:54:03 [root] INFO: 13 American dog actor
+2018-01-03 19:54:03 [root] INFO: Deaths_in_2002
+2018-01-03 19:54:03 [root] INFO: 16 thoroughbred race horse winner of the
+2018-01-03 19:54:03 [root] INFO: Deaths_in_2003
+2018-01-03 19:54:03 [root] INFO: 17 Mexican heart and lung patient whose wrong transplant made headlines.
+2018-01-03 19:54:03 [root] INFO: Deaths_in_December_2004
+2018-01-03 19:54:03 [root] INFO: 21 Thai prince.
+2018-01-03 19:54:03 [root] INFO: Deaths_in_November_2004
+2018-01-03 19:54:03 [root] INFO: 31 Latvian ice hockey player heart failure due to
+2018-01-03 19:54:03 [root] INFO: Deaths_in_October_2004
+2018-01-03 19:54:03 [root] INFO: 21 American college junior shot with pepper spray projectile by Boston Police.
+2018-01-03 19:54:03 [root] INFO: Deaths_in_September_2004
+2018-01-03 19:54:03 [root] INFO: 20 Italian motoracer killed during a race.
+2018-01-03 19:54:04 [root] INFO: Deaths_in_August_2004
+2018-01-03 19:54:04 [root] INFO: 18 Czech football car accident.
+2018-01-03 19:54:04 [root] INFO: Deaths_in_July_2004
+2018-01-03 19:54:04 [root] INFO: 14 American thoroughbred.
+2018-01-03 19:54:04 [root] INFO: Deaths_in_June_2004
+2018-01-03 19:54:04 [root] INFO: 13 American poet and advocate muscular dystrophy.
+2018-01-03 19:54:04 [root] INFO: Deaths_in_May_2004
+2018-01-03 19:54:04 [root] INFO: 26 American businessman and hostage killed in Iraq.
+2018-01-03 19:54:04 [root] INFO: Deaths_in_April_2004
+2018-01-03 19:54:04 [root] INFO: 22 American marine used his body and helmet to shield others from a grenade explosion.
+2018-01-03 19:54:04 [root] INFO: Deaths_in_March_2004
+2018-01-03 19:54:04 [root] INFO: 19 Mexican singer.
+2018-01-03 19:54:05 [root] INFO: Deaths_in_February_2004
+2018-01-03 19:54:05 [root] INFO: 21 Estonian soldier first Estonian soldier to be killed in Iraq.
+2018-01-03 19:54:05 [root] INFO: Deaths_in_January_2004
+2018-01-03 19:54:05 [root] INFO: 23 Georgian footballer.
+2018-01-03 19:54:05 [root] INFO: Deaths_in_December_2005
+2018-01-03 19:54:05 [root] INFO: 25 French professional surfer killed at Hawaii's
+2018-01-03 19:54:05 [root] INFO: Deaths_in_November_2005
+2018-01-03 19:54:05 [root] INFO: 17 American thoroughbred racehorse.
+2018-01-03 19:54:05 [root] INFO: Deaths_in_October_2005
+2018-01-03 19:54:05 [root] INFO: 22 Canadian shooting victim.
+2018-01-03 19:54:05 [root] INFO: Deaths_in_September_2005
+2018-01-03 19:54:05 [root] INFO: 22 American center on the
+2018-01-03 19:54:05 [root] INFO: Deaths_in_August_2005
+2018-01-03 19:54:05 [root] INFO: 21 Colombian "New Wave"
+2018-01-03 19:54:05 [root] INFO: Deaths_in_July_2005
+2018-01-03 19:54:05 [root] INFO: 18 British terrorist.
+2018-01-03 19:54:06 [root] INFO: Deaths_in_June_2005
+2018-01-03 19:54:06 [root] INFO: 23 American sexual assault victim whose case paved the way for laws allowing indefinite confinement of sexual predators motorcycle accident.
+2018-01-03 19:54:06 [root] INFO: Deaths_in_May_2005
+2018-01-03 19:54:06 [root] INFO: 24 Afghan TV presenter of
+2018-01-03 19:54:06 [root] INFO: Deaths_in_April_2005
+2018-01-03 19:54:06 [root] INFO: 26 American ex-National Football League player spinal cord injury suffered playing an
+2018-01-03 19:54:06 [root] INFO: Deaths_in_March_2005
+2018-01-03 19:54:06 [root] INFO: 16 American school shooter suicide.
+2018-01-03 19:54:06 [root] INFO: Deaths_in_February_2005
+2018-01-03 19:54:06 [root] INFO: 21 Palestinian suicide bomber.
+2018-01-03 19:54:06 [root] INFO: Deaths_in_January_2005
+2018-01-03 19:54:06 [root] INFO: 16 American teenager who was brutally murdered and made national headlines.
+2018-01-03 19:54:06 [root] INFO: Deaths_in_December_2006
+2018-01-03 19:54:06 [root] INFO: 18 American world champion bucking bull.
+2018-01-03 19:54:06 [root] INFO: Deaths_in_November_2006
+2018-01-03 19:54:06 [root] INFO: 21 Brazilian model complications of anorexia nervosa.
+2018-01-03 19:54:07 [root] INFO: Deaths_in_September_2006
+2018-01-03 19:54:07 [root] INFO: 19 Mexican actor (
+2018-01-03 19:54:07 [root] INFO: Deaths_in_October_2006
+2018-01-03 19:54:07 [root] INFO: 12 Hungarian rescue dog with the
+2018-01-03 19:54:07 [root] INFO: Deaths_in_August_2006
+2018-01-03 19:54:07 [root] INFO: 22 Uruguayan model heart failure caused by anorexia nervosa.
+2018-01-03 19:54:07 [root] INFO: Deaths_in_July_2006
+2018-01-03 19:54:07 [root] INFO: 19 American model car accident.
+2018-01-03 19:54:07 [root] INFO: Deaths_in_June_2006
+2018-01-03 19:54:07 [root] INFO: 16 American canine star of U.S. sit-com
+2018-01-03 19:54:07 [root] INFO: Deaths_in_May_2006
+2018-01-03 19:54:07 [root] INFO: 15 British youth team player with English football team
+2018-01-03 19:54:08 [root] INFO: Deaths_in_April_2006
+2018-01-03 19:54:08 [root] INFO: 17 Russian teenager murdered while working at
+2018-01-03 19:54:08 [root] INFO: Deaths_in_March_2006
+2018-01-03 19:54:08 [root] INFO: 17 British
+2018-01-03 19:54:08 [root] INFO: Deaths_in_February_2006
+2018-01-03 19:54:08 [root] INFO: 24 American Hispanic
+2018-01-03 19:54:08 [root] INFO: Deaths_in_January_2006
+2018-01-03 19:54:08 [root] INFO: 15 Bahraini prince injuries from a car crash.
+2018-01-03 19:54:08 [root] INFO: Deaths_in_December_2007
+2018-01-03 19:54:08 [root] INFO: 16 Canadian allegedly killed for refusing to wear hijab strangled.
+2018-01-03 19:54:08 [root] INFO: Deaths_in_November_2007
+2018-01-03 19:54:08 [root] INFO: 18 Finnish mass murderer suicide by gunshot.
+2018-01-03 19:54:08 [root] INFO: Deaths_in_October_2007
+2018-01-03 19:54:08 [root] INFO: 14 American orca at
+2018-01-03 19:54:08 [root] INFO: Deaths_in_September_2007
+2018-01-03 19:54:08 [root] INFO: 20 South Korean actress brain tumor.
+2018-01-03 19:54:09 [root] INFO: Deaths_in_August_2007
+2018-01-03 19:54:09 [root] INFO: 18 British footballer (
+2018-01-03 19:54:09 [root] INFO: Deaths_in_July_2007
+2018-01-03 19:54:09 [root] INFO: 12 American search and rescue dog for
+2018-01-03 19:54:09 [root] INFO: Deaths_in_June_2007
+2018-01-03 19:54:09 [root] INFO: 22 Russian footballer (
+2018-01-03 19:54:09 [root] INFO: Deaths_in_May_2007
+2018-01-03 19:54:09 [root] INFO: 23 Honduran footballer car accident.
+2018-01-03 19:54:10 [root] INFO: Deaths_in_March_2007
+2018-01-03 19:54:10 [root] INFO: 20 Australian professional skateboarder motorcycle collision.
+2018-01-03 19:54:10 [root] INFO: Deaths_in_February_2007
+2018-01-03 19:54:10 [root] INFO: 18 American Salt Lake City spree killer shot by police.
+2018-01-03 19:54:10 [root] INFO: Deaths_in_April_2007
+2018-01-03 19:54:10 [root] INFO: 23 American brain-injured girl claimed to have performed miracles cardio-respiratory failure.
+2018-01-03 19:54:10 [root] INFO: Deaths_in_January_2007
+2018-01-03 19:54:10 [root] INFO: 17 British Jack Russell terrier celebrity pet of
+2018-01-03 19:54:10 [root] INFO: Deaths_in_November_2008
+2018-01-03 19:54:10 [root] INFO: 26 American professional baseball player accidental drug overdose.
+2018-01-03 19:54:10 [root] INFO: Deaths_in_December_2008
+2018-01-03 19:54:10 [root] INFO: 20 Filipino
+2018-01-03 19:54:10 [root] INFO: Deaths_in_October_2008
+2018-01-03 19:54:10 [root] INFO: 13 American stray cat name source of the
+2018-01-03 19:54:10 [root] INFO: Deaths_in_September_2008
+2018-01-03 19:54:10 [root] INFO: 18 Croatian ice hockey player car accident.
+2018-01-03 19:54:11 [root] INFO: Deaths_in_August_2008
+2018-01-03 19:54:11 [root] INFO: 18 American western lowland gorilla complications of early pregnancy.
+2018-01-03 19:54:11 [root] INFO: Deaths_in_July_2008
+2018-01-03 19:54:11 [root] INFO: 18 Indian singer drowned.
+2018-01-03 19:54:11 [root] INFO: Deaths_in_June_2008
+2018-01-03 19:54:11 [root] INFO: 16 English murder victim stabbing.
+2018-01-03 19:54:11 [root] INFO: Deaths_in_April_2008
+2018-01-03 19:54:11 [root] INFO: 22 Chinese panda lived in
+2018-01-03 19:54:11 [root] INFO: Deaths_in_March_2008
+2018-01-03 19:54:11 [root] INFO: 19 Finnish singer finalist in
+2018-01-03 19:54:11 [root] INFO: Deaths_in_May_2008
+2018-01-03 19:54:11 [root] INFO: 17 Australian singer and actress (
+2018-01-03 19:54:11 [root] INFO: Deaths_in_February_2008
+2018-01-03 19:54:11 [root] INFO: 18 Pakistani cricketer for
+2018-01-03 19:54:12 [root] INFO: Deaths_in_January_2008
+2018-01-03 19:54:12 [root] INFO: 19 Irish
+2018-01-03 19:54:12 [root] INFO: Deaths_in_December_2009
+2018-01-03 19:54:12 [root] INFO: 26 American football player (
+2018-01-03 19:54:12 [root] INFO: Deaths_in_November_2009
+2018-01-03 19:54:12 [root] INFO: 20 South Korean fashion model suicide by hanging.
+2018-01-03 19:54:12 [root] INFO: Deaths_in_October_2009
+2018-01-03 19:54:12 [root] INFO: 10 British hurdles racehorse euthanised.
+2018-01-03 19:54:12 [root] INFO: Deaths_in_September_2009
+2018-01-03 19:54:12 [root] INFO: 19 Colombian footballer traffic collision.
+2018-01-03 19:54:12 [root] INFO: Deaths_in_August_2009
+2018-01-03 19:54:12 [root] INFO: 21 Swazi beauty pageant contestant
+2018-01-03 19:54:12 [root] INFO: Deaths_in_June_2009
+2018-01-03 19:54:12 [root] INFO: 11 Japanese Thoroughbred racehorse heart failure.
+2018-01-03 19:54:12 [root] INFO: Deaths_in_July_2009
+2018-01-03 19:54:12 [root] INFO: 15 American chihuahua
+2018-01-03 19:54:13 [root] INFO: Deaths_in_May_2009
+2018-01-03 19:54:13 [root] INFO: 13 New Zealand champion racehorse euthanized.
+2018-01-03 19:54:13 [root] INFO: Deaths_in_April_2009
+2018-01-03 19:54:13 [root] INFO: 21 Bulgarian ice hockey goaltender member of the
+2018-01-03 19:54:13 [root] INFO: Deaths_in_March_2009
+2018-01-03 19:54:13 [root] INFO: 13 British service dog stroke.
+2018-01-03 19:54:13 [root] INFO: Deaths_in_February_2009
+2018-01-03 19:54:13 [root] INFO: 13 American-born chimpanzee television commercial animal shot.
+2018-01-03 19:54:13 [root] INFO: Deaths_in_January_2009
+2018-01-03 19:54:13 [root] INFO: 18 American pet cat of
+2018-01-03 19:54:13 [root] INFO: Deaths_in_December_2010
+2018-01-03 19:54:13 [root] INFO: 21 Nigerian footballer.
+2018-01-03 19:54:13 [root] INFO: Deaths_in_November_2010
+2018-01-03 19:54:13 [root] INFO: 10 American obese cat heart disease.
+2018-01-03 19:54:14 [root] INFO: Deaths_in_October_2010
+2018-01-03 19:54:14 [root] INFO: 23 American thoroughbred racehorse euthanized due to
+2018-01-03 19:54:14 [root] INFO: Deaths_in_September_2010
+2018-01-03 19:54:14 [root] INFO: 15 American thoroughbred racehorse winner of 1998
+2018-01-03 19:54:14 [root] INFO: Deaths_in_August_2010
+2018-01-03 19:54:14 [root] INFO: 13 American motorcycle racer racetrack crash.
+2018-01-03 19:54:14 [root] INFO: Deaths_in_July_2010
+2018-01-03 19:54:14 [root] INFO: 18 Irish Thoroughbred racehorse euthanized.
+2018-01-03 19:54:14 [root] INFO: Deaths_in_June_2010
+2018-01-03 19:54:14 [root] INFO: 17 American Chinese Crested Dog winner of title
+2018-01-03 19:54:14 [root] INFO: Deaths_in_May_2010
+2018-01-03 19:54:14 [root] INFO: 17 American thoroughbred racehorse heart attack.
+2018-01-03 19:54:15 [root] INFO: Deaths_in_April_2010
+2018-01-03 19:54:15 [root] INFO: 15 Malaysian student and victim shot.
+2018-01-03 19:54:15 [root] INFO: Deaths_in_March_2010
+2018-01-03 19:54:15 [root] INFO: 17 Austrian fashion model car accident.
+2018-01-03 19:54:15 [root] INFO: Deaths_in_February_2010
+2018-01-03 19:54:15 [root] INFO: 16 American Pit Bull Terrier appeared with owner
+2018-01-03 19:54:15 [root] INFO: Deaths_in_January_2010
+2018-01-03 19:54:15 [root] INFO: 15 Irish student at
+2018-01-03 19:54:15 [root] INFO: Deaths_in_December_2011
+2018-01-03 19:54:15 [root] INFO: 18 American Internet personality cardiac arrest.
+2018-01-03 19:54:15 [root] INFO: Deaths_in_November_2011
+2018-01-03 19:54:15 [root] INFO: 15 Dutch-born Canadian show jumping horse Olympic champion (
+2018-01-03 19:54:16 [root] INFO: Deaths_in_October_2011
+2018-01-03 19:54:16 [root] INFO: 21 Russian ski jumper traffic accident.
+2018-01-03 19:54:16 [root] INFO: Deaths_in_September_2011
+2018-01-03 19:54:16 [root] INFO: 12 American bulldog
+2018-01-03 19:54:16 [root] INFO: Deaths_in_August_2011
+2018-01-03 19:54:16 [root] INFO: 22 Australian bodybuilder and model heart attack.
+2018-01-03 19:54:16 [root] INFO: Deaths_in_July_2011
+2018-01-03 19:54:16 [root] INFO: 20
+2018-01-03 19:54:16 [root] INFO: Deaths_in_June_2011
+2018-01-03 19:54:16 [root] INFO: 16 New Zealand celebrity sheep euthanised.
+2018-01-03 19:54:16 [root] INFO: Deaths_in_May_2011
+2018-01-03 19:54:16 [root] INFO: 22 Filipino motorcycle racer race crash.
+2018-01-03 19:54:16 [root] INFO: Deaths_in_April_2011
+2018-01-03 19:54:16 [root] INFO: 18 Filipino actor traffic accident.
+2018-01-03 19:54:16 [root] INFO: Deaths_in_March_2011
+2018-01-03 19:54:16 [root] INFO: 20 Liberian footballer.
+2018-01-03 19:54:17 [root] INFO: Deaths_in_February_2011
+2018-01-03 19:54:17 [root] INFO: 10 American
+2018-01-03 19:54:17 [root] INFO: Deaths_in_January_2011
+2018-01-03 19:54:17 [root] INFO: 17 Italian ski jumper.
+2018-01-03 19:54:17 [root] INFO: Deaths_in_December_2012
+2018-01-03 19:54:17 [root] INFO: 18 American Thoroughbred racehorse winner of the 1997
+2018-01-03 19:54:17 [root] INFO: Deaths_in_November_2012
+2018-01-03 19:54:17 [root] INFO: 21 English cricketer.
+2018-01-03 19:54:18 [root] INFO: Deaths_in_September_2012
+2018-01-03 19:54:18 [root] INFO: 16 Norwegian homicide victim.
+2018-01-03 19:54:18 [root] INFO: Deaths_in_October_2012
+2018-01-03 19:54:18 [root] INFO: 18 Australian Thoroughbred racehorse winner of the
+2018-01-03 19:54:18 [root] INFO: Deaths_in_August_2012
+2018-01-03 19:54:18 [root] INFO: 12 American-bred British-trained Thoroughbred racehorse winner of
+2018-01-03 19:54:18 [root] INFO: Deaths_in_July_2012
+2018-01-03 19:54:18 [root] INFO: 20 Canadian Thoroughbred racehorse winner of the
+2018-01-03 19:54:18 [root] INFO: Deaths_in_June_2012
+2018-01-03 19:54:18 [root] INFO: 19 American rap artist ("
+2018-01-03 19:54:18 [root] INFO: Deaths_in_May_2012
+2018-01-03 19:54:18 [root] INFO: 14 Indian film actress (
+2018-01-03 19:54:18 [root] INFO: Deaths_in_April_2012
+2018-01-03 19:54:18 [root] INFO: 24 South Korean footballer (
+2018-01-03 19:54:19 [root] INFO: Deaths_in_March_2012
+2018-01-03 19:54:19 [root] INFO: 12 American Marine service dog awarded honorary Purple Heart cancer.
+2018-01-03 19:54:19 [root] INFO: Deaths_in_February_2012
+2018-01-03 19:54:19 [root] INFO: 11 Irish Thoroughbred racehorse winner of the
+2018-01-03 19:54:19 [root] INFO: Deaths_in_December_2013
+2018-01-03 19:54:19 [root] INFO: 22 American rapper shot.
+2018-01-03 19:54:19 [root] INFO: Deaths_in_November_2013
+2018-01-03 19:54:19 [root] INFO: 15 English singer liver cancer.
+2018-01-03 19:54:20 [root] INFO: Deaths_in_September_2013
+2018-01-03 19:54:20 [root] INFO: 24 Ukrainian footballer brain tumor.
+2018-01-03 19:54:20 [root] INFO: Deaths_in_July_2013
+2018-01-03 19:54:20 [root] INFO: 13 American golden retriever bat dog and mascot for the
+2018-01-03 19:54:20 [root] INFO: Deaths_in_August_2013
+2018-01-03 19:54:20 [root] INFO: 20 Australian Olympic boxer (
+2018-01-03 19:54:20 [root] INFO: Deaths_in_October_2013
+2018-01-03 19:54:20 [root] INFO: 20 French thoroughbred racehorse winner of the
+2018-01-03 19:54:20 [root] INFO: Deaths_in_January_2012
+2018-01-03 19:54:20 [root] INFO: 16 Pakistani student world's youngest
+2018-01-03 19:54:20 [root] INFO: Deaths_in_June_2013
+2018-01-03 19:54:20 [root] INFO: 18 Congolese footballer (
+2018-01-03 19:54:20 [root] INFO: Deaths_in_May_2013
+2018-01-03 19:54:20 [root] INFO: 12 American collie mascot for
+2018-01-03 19:54:20 [root] INFO: Deaths_in_April_2013
+2018-01-03 19:54:20 [root] INFO: 16 American thoroughbred horse winner of
+2018-01-03 19:54:21 [root] INFO: Deaths_in_March_2013
+2018-01-03 19:54:21 [root] INFO: 10 New Zealand-bred Australian racehorse winner of
+2018-01-03 19:54:21 [root] INFO: Deaths_in_February_2013
+2018-01-03 19:54:21 [root] INFO: 12 American Scottish Terrier
+2018-01-03 19:54:21 [root] INFO: Deaths_in_January_2013
+2018-01-03 19:54:21 [root] INFO: 12 American thoroughbred racehorse winner of
+2018-01-03 19:54:21 [root] INFO: Deaths_in_December_2014
+2018-01-03 19:54:21 [root] INFO: 15 American-born
+2018-01-03 19:54:21 [root] INFO: Deaths_in_November_2014
+2018-01-03 19:54:21 [root] INFO: 10 French-bred Irish-trained Thoroughbred racehorse fall while training.
+2018-01-03 19:54:22 [root] INFO: Deaths_in_July_2014
+2018-01-03 19:54:22 [root] INFO: 17 Pakistani cricketer and sexual harassment plaintiff suicide.
+2018-01-03 19:54:22 [root] INFO: Deaths_in_June_2014
+2018-01-03 19:54:22 [root] INFO: 25 Uzbekistani footballer gastric ulcer.
+2018-01-03 19:54:22 [root] INFO: Deaths_in_May_2014
+2018-01-03 19:54:22 [root] INFO: 10 American thoroughbred horse.
+2018-01-03 19:54:22 [root] INFO: Deaths_in_April_2014
+2018-01-03 19:54:22 [root] INFO: 13 Irish racehorse and sire euthanised.
+2018-01-03 19:54:22 [root] INFO: Deaths_in_March_2014
+2018-01-03 19:54:22 [root] INFO: 15 Turkish student head trauma from projected tear-gas canister.
+2018-01-03 19:54:22 [root] INFO: Deaths_in_February_2014
+2018-01-03 19:54:22 [root] INFO: 12 British Thoroughbred racehorse
+2018-01-03 19:54:23 [root] INFO: Deaths_in_January_2014
+2018-01-03 19:54:23 [root] INFO: 13 Canadian Thoroughbred racehorse heart attack.
+2018-01-03 19:54:23 [root] INFO: Deaths_in_December_2015
+2018-01-03 19:54:23 [root] INFO: 11 American Thoroughbred racehorse.
+2018-01-03 19:54:23 [root] INFO: Deaths_in_November_2015
+2018-01-03 19:54:23 [root] INFO: 15 Irish-bred British-trained thoroughbred racehorse
+2018-01-03 19:54:23 [root] INFO: Deaths_in_October_2015
+2018-01-03 19:54:23 [root] INFO: 10 American skateboarding English bulldog heart disease.
+2018-01-03 19:54:23 [root] INFO: Deaths_in_September_2015
+2018-01-03 19:54:23 [root] INFO: 20 French canoeist European
+2018-01-03 19:54:23 [root] INFO: Deaths_in_August_2015
+2018-01-03 19:54:23 [root] INFO: 13 American canine actor (
+2018-01-03 19:54:23 [root] INFO: Deaths_in_July_2015
+2018-01-03 19:54:23 [root] INFO: 10 Hungarian Thoroughbred racehorse horse colic.
+2018-01-03 19:54:24 [root] INFO: Deaths_in_June_2015
+2018-01-03 19:54:24 [root] INFO: 15 Australian Thoroughbred racehorse euthanised.
+2018-01-03 19:54:24 [root] INFO: Deaths_in_May_2015
+2018-01-03 19:54:24 [root] INFO: 14 Chilean euthanasia advocate cystic fibrosis.
+2018-01-03 19:54:24 [root] INFO: Deaths_in_April_2015
+2018-01-03 19:54:24 [root] INFO: 12 American Thoroughbred racehorse complications from foaling.
+2018-01-03 19:54:24 [root] INFO: Deaths_in_March_2015
+2018-01-03 19:54:24 [root] INFO: 12 Australian war canine brain cancer.
+2018-01-03 19:54:24 [root] INFO: Deaths_in_January_2015
+2018-01-03 19:54:24 [root] INFO: 18 Indian motivational speaker and author pulmonary fibrosis.
+2018-01-03 19:54:24 [root] INFO: Deaths_in_December_2016
+2018-01-03 19:54:24 [root] INFO: 12 American student suicide by hanging.
+2018-01-03 19:54:25 [root] INFO: Deaths_in_November_2016
+2018-01-03 19:54:25 [root] INFO: 20 American albino buffalo.
+2018-01-03 19:54:25 [root] INFO: Deaths_in_February_2015
+2018-01-03 19:54:25 [root] INFO: 13 Japanese thoroughbred racehorse heart failure.
+2018-01-03 19:54:25 [root] INFO: Deaths_in_October_2016
+2018-01-03 19:54:25 [root] INFO: 18 American Thoroughbred racehorse winner of the
+2018-01-03 19:54:25 [root] INFO: Deaths_in_September_2016
+2018-01-03 19:54:25 [root] INFO: 16 American Thoroughbred racehorse heart attack.
+2018-01-03 19:54:25 [root] INFO: Deaths_in_August_2016
+2018-01-03 19:54:25 [root] INFO: 20 Indian tigress.
+2018-01-03 19:54:25 [root] INFO: Deaths_in_July_2016
+2018-01-03 19:54:25 [root] INFO: 22 Indian Kashmiri militant shot.
+2018-01-03 19:54:25 [root] INFO: Deaths_in_June_2016
+2018-01-03 19:54:25 [root] INFO: 10 Australian thoroughbred racehorse euthanized.
+2018-01-03 19:54:26 [root] INFO: Deaths_in_May_2016
+2018-01-03 19:54:26 [root] INFO: 15 Brazilian-born American racehorse
+2018-01-03 19:54:26 [root] INFO: Deaths_in_April_2016
+2018-01-03 19:54:26 [root] INFO: 21 Swiss snowboarder world champion (
+2018-01-03 19:54:26 [root] INFO: Deaths_in_March_2016
+2018-01-03 19:54:26 [root] INFO: 11 American dog first dog of Maine (since 2011).
+2018-01-03 19:54:26 [root] INFO: Deaths_in_February_2016
+2018-01-03 19:54:26 [root] INFO: 11 Afghan child soldier shot.
+2018-01-03 19:54:26 [root] INFO: Deaths_in_January_2016
+2018-01-03 19:54:26 [root] INFO: 14 Nigerian actor abdominal injury.
+2018-01-03 19:54:26 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-01-03 19:54:26 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
 {'downloader/request_bytes': 74821,
  'downloader/request_count': 181,
  'downloader/request_method_count/GET': 181,
- 'downloader/response_bytes': 12799744,
+ 'downloader/response_bytes': 12799806,
  'downloader/response_count': 181,
  'downloader/response_status_count/200': 181,
  'finish_reason': 'finished',
- 'finish_time': datetime.datetime(2018, 1, 3, 10, 37, 12, 703773),
+ 'finish_time': datetime.datetime(2018, 1, 3, 10, 54, 26, 708177),
  'item_scraped_count': 179,
  'log_count/INFO': 357,
  'request_depth_max': 1,
@@ -395,5 +395,5 @@
  'scheduler/dequeued/memory': 180,
  'scheduler/enqueued': 180,
  'scheduler/enqueued/memory': 180,
- 'start_time': datetime.datetime(2018, 1, 3, 10, 36, 44, 799892)}
-2018-01-03 19:37:12 [scrapy.core.engine] INFO: Spider closed (finished)
+ 'start_time': datetime.datetime(2018, 1, 3, 10, 53, 57, 751387)}
+2018-01-03 19:54:26 [scrapy.core.engine] INFO: Spider closed (finished)

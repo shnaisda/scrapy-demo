@@ -30,5 +30,5 @@ class DeathByYearSpider(scrapy.Spider):
         # self.logger.info("Target %s ..." % year)
         yield {
           'year': year,
-          'sample': items.extract()
+          'record': items.extract()
         }

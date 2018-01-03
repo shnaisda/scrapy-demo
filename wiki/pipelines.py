@@ -14,7 +14,7 @@ class WikiPipeline(object):
         if None in ([item[k] for k,v in item.items()]):
             raise DropItem("Missing value in %s" % item)
         else:
-            data_in_text = item['sample']
+            data_in_text = item['record']
             for data in data_in_text:
                 res = re.search(r'( \d\d, .*)', data)
                 if res:
